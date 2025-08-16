@@ -41,7 +41,7 @@ def recommend(title):
 
     return {"recommended":recommended}
 
-@app.post("/")
+@app.get("/")
 def recommend_movie():
     return {"Corn": "Successfully initiated"}
 
